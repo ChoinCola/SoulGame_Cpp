@@ -4,6 +4,11 @@ using namespace std;
 
 struct person
 {
+	void Print() {
+		cout << age << endl;
+	} // 원래 그냥 void Print() 만 써도 위와같은 값이 들어가있는것 과 같다고 볼 수 있다.
+
+
 	void __thiscall Print(/* person* */) {
 		cout << age << endl;
 	} // 원래 그냥 void Print() 만 써도 위와같은 값이 들어가있는것 과 같다고 볼 수 있다.
