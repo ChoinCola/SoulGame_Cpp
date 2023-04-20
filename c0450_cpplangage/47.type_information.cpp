@@ -20,9 +20,9 @@ T add(T a, T b)
 
 int main()
 {
-	add(10, 20);
-	add(10.0f, 20.0f);
-	add(20.1, 50.2);
+	cout << add(10, 20) << endl;
+	cout << add(10.0f, 20.0f) << endl;
+	cout << add(20.1, 50.2) << endl;
 
 	return 0;
 }

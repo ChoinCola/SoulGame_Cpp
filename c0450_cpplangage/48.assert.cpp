@@ -20,7 +20,7 @@ int main()
 	
 	const int x1 = 6;
 	const int y1 = 7;
-	static_assert(x1 < y1, "x1 is bigger than y1"); // 컴파일 전에 체크할 수 있다. C++에서 미리 오류를 띄워준다.
+	static_assert(x1 > y1, "x1 is bigger than y1"); // 컴파일 전에 체크할 수 있다. C++에서 미리 오류를 띄워준다.
 
 	return 0;
 }
