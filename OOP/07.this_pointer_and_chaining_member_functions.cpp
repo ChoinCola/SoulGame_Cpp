@@ -1,12 +1,12 @@
-#include <iostream>
-
-using namespace std;
-
-/*
-	this pointer : 객체 자신을 가리키는 용도로 사용되는 포인터
-	this 는 포인터를 돌려주는 코드 라고 생각하면된다.
-*/
-
+//#include <iostream>
+//
+//using namespace std;
+//
+///*
+//	this pointer : 객체 자신을 가리키는 용도로 사용되는 포인터
+//	this 는 포인터를 돌려주는 코드 라고 생각하면된다.
+//*/
+//
 //class Test
 //{
 //	int num;
@@ -63,7 +63,7 @@ using namespace std;
 //	ptr2->ShowTestData();
 //	return 0;
 //}
-//
+
 
 #pragma region chaining member function
 class Calc
