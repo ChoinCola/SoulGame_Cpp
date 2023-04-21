@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02.Encapsulation.cpp">
+    <ClCompile Include="07.this_pointer_and_chaining_member_functions.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
