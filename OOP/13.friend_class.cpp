@@ -31,8 +31,8 @@ using namespace std;
 //
 //	return 0;
 //}
-
-// 사실상 위와 같이 전역식으로 접근하는 것 보다는 특정 함수가 접근할 때 사용한다
+//
+// //사실상 위와 같이 전역식으로 접근하는 것 보다는 특정 함수가 접근할 때 사용한다
 
 #pragma endregion
 
@@ -67,10 +67,10 @@ using namespace std;
 //{
 //	A a;
 //	B b;
-//	// b.a; // 이런식으로는 접근이 안된다. b에는 friend 키워들르 제공하지 않았기 때무느
+//	// b.a; // 이런식으로는 접근이 안된다. b에는 friend 키워들르 제공하지 않았기 때문
 //	
 //}
-// 가장 많이사용하는 방식.
+// //가장 많이사용하는 방식.
 #pragma endregion
 
 #pragma region friend class
