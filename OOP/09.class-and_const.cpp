@@ -15,6 +15,7 @@ public:
 	//int& Getvalue1() const { cout << "const"; return value1; } 오류가 난다! 상수형태로 나타나기 떄문, 리턴이 안됨
 
 	const int& Getvalue1() const { cout << "const"; return value1; } // 객체 자체를 상수화 시켜야 한다.
+	// 중간에 const 선언이 된 이유는.상수함수라는 표시, 앞부분 const는 외부에서 값이 변경되는것 을 막기 위해 사용.
 	// 오버로딩이 된다. const가 붙었기 때문!
 
 	//void Setvalue(int value) const { this->value1 = value; }
