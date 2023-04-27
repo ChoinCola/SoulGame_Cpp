@@ -1,22 +1,11 @@
-#include <iostream>
-
-class Rectangle {
-private:
-    int width;
-    int height;
+class Example {
 public:
-    Rectangle(int w, int h) {
-        width = w;
-        height = h;
+    int GetValue() const {
+        ++mutable_variable;
+        return value_;
     }
-    int getArea() {
-        return width * height;
-    }
-};
 
-int main() {
-    Rectangle rect(5, 10);
-    int area = rect.getArea(); // 50
-    std::cout << area << std::endl;
-    return 0;
-}
+private:
+    int value_;
+    mutable int mutable_variable;
+};
