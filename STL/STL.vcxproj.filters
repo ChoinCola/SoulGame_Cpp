@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="15.nested_types.cpp">
+    <ClCompile Include="ex.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
