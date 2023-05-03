@@ -110,12 +110,18 @@ public:
 	// 전위, 후위
 	auto operator++() const -> Vector&
 	{
+		x += 1;
+		++y;
+		++z;
 
+		return *this;
 	}
 	// 후위와 전위를 구분하기 위해 int를 넣게된다. 의미없는 값 인데 구분하기 위해 넣는다.
 	auto operator++(int) const -> Vector&
 	{
-
+		Vector temp = *this;
+		++(*this);
+		return temp;
 	}
 
 private:

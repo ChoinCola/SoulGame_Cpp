@@ -4,6 +4,7 @@
 using namespace std;
 // 리스트는 삽입 삭제가 매우 쉽고, 배열을 순차적으로 접근하게된다.
 // 자료구조의 구현라이브러리
+
 int main()
 {
 	list<int> list;
