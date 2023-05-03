@@ -17,7 +17,7 @@ public:
 		return (value == 0) ? true : false; // 삼항 연산자
 	}
 
-	friend ostream& oeprator << (ostream & out, const Won & won)
+	friend ostream& operator << (ostream & out, const Won & won)
 	{
 		out << won.value;
 		return out;

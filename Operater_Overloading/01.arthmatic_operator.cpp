@@ -47,41 +47,41 @@ using namespace std;
 #pragma endregion
 
 #pragma region 2. 멤버 함수에 의한 연산자 오버로딩
-class Won
-{
-public:
-	Won(int value) : value(value) {}
-
-	int Getvalue() const { return value; }
-
-
-	// l.operator+(r) 처럼 되는 형태이다.
-	int operator+(const Won& rhs)
-	{
-		return value + rhs.value;
-	}
-
-	Won operator-(const Won& rhs)
-	{
-		return value + rhs.value;
-	}
-
-private:
-	int value;
-};
-
-int main()
-{
-	Won l(10), r(10);
-
-	int result = l + r;
-	cout << result << endl;
-
-	Won result2 = l - r;
-	cout << result2.Getvalue() << endl;
-
-	return 0;
-}
+//class Won
+//{
+//public:
+//	Won(int value) : value(value) {}
+//
+//	int Getvalue() const { return value; }
+//
+//
+//	// l.operator+(r) 처럼 되는 형태이다.
+//	int operator+(const Won& rhs)
+//	{
+//		return value + rhs.value;
+//	}
+//
+//	Won operator-(const Won& rhs)
+//	{
+//		return value + rhs.value;
+//	}
+//
+//private:
+//	int value;
+//};
+//
+//int main()
+//{
+//	Won l(10), r(10);
+//
+//	int result = l + r;
+//	cout << result << endl;
+//
+//	Won result2 = l - r;
+//	cout << result2.Getvalue() << endl;
+//
+//	return 0;
+//}
 #pragma endregion
 
 /*
@@ -108,7 +108,7 @@ public:
 	}
 
 	// 전위, 후위
-	auto operator++() const -> Vector&
+	auto operator++() -> Vector&
 	{
 		x += 1;
 		++y;
@@ -117,7 +117,7 @@ public:
 		return *this;
 	}
 	// 후위와 전위를 구분하기 위해 int를 넣게된다. 의미없는 값 인데 구분하기 위해 넣는다.
-	auto operator++(int) const -> Vector&
+	auto operator++(int) -> Vector&
 	{
 		Vector temp = *this;
 		++(*this);

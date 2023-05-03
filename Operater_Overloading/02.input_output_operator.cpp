@@ -44,6 +44,7 @@ int main()
 
 	cout << p1 << ", " << p2 << endl;
 
+	cin >> p1;
 
 	return 0;
 }

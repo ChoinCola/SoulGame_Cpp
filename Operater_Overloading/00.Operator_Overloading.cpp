@@ -27,6 +27,12 @@ public:
 		return num;
 	}
 
+	auto operator+(Number& def) -> Number&
+	{
+		this->num + def.num;
+		return *this;
+	}
+
 private:
 	int num;
 };
@@ -39,8 +45,11 @@ int main()
 
 	int result = a.GetNum() + b.GetNum();
 	a.SetNum(result);
+
+	Number c = a + b;
 	// 위의 연산을 올바르게 할려면 40번째 줄이 맞는 형식이다.
-	// 그러나, 이러한 연산자를 생성하려면 너무 불편하고 Get과 Set은 객체지향적인 코딩을 벗어나게 된다. 그때 사용하는 것 이 연산자 오버로딩이다.
+	// 그러나, 이러한 연산자를 생성하려면 너무 불편하고 Get과 Set은 객체지향적인 코딩을 벗어나게 된다.
+	// 그때 사용하는 것 이 연산자 오버로딩이다.
 
 	return 0;
 }
