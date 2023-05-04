@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03.Unary_Operator.cpp">
+    <ClCompile Include="09.pointer_operator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
