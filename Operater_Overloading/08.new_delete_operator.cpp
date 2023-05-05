@@ -34,6 +34,5 @@ int main()
 
 	Point* ptr = new Point(3, 4); // static 인지 아닌지 알 수 없지만, new 가 함수 오버로딩 형태로 동작하게 된다.
 
-
 	return 0;
 }

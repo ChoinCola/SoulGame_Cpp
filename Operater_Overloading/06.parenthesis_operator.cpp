@@ -63,5 +63,8 @@ int main()
 	cout << adder(1, 2) << endl;
 	cout << adder(3, 4) << endl;
 	cout << adder(Point(1, 2), Point(3, 4)) << endl;
+
+	cout << Point(1 + 3, 2 + 4) << endl;
+	
 	return 0;
 }
