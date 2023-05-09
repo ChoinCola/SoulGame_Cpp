@@ -51,7 +51,6 @@ void Start()
 	}
 
 	cout << "######### 화살표 타이핑 게임!!#########" << endl;
-
 	system("pause"); // 다른 키를 누르면 시작하게 만듬.
 	system("cls");
 }
