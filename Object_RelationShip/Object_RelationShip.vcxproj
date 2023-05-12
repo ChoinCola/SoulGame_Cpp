@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5b1d9663-47d3-4321-835f-022e19d8bd2d}</ProjectGuid>
-    <RootNamespace>c0450cpplangage</RootNamespace>
+    <ProjectGuid>{d86d33c5-934c-49d9-bd8b-54d6af2938d6}</ProjectGuid>
+    <RootNamespace>ObjectRelationShip</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01_Basic</ProjectName>
+    <ProjectName>04_Object_RelationShip</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
