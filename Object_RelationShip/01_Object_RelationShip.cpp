@@ -1,5 +1,5 @@
 /*
-	Object RelationShop : 객체 관계
+	Object RelationShip : 객체 관계
 
 	- Composition(구성) part-of
 		전체클래스의 일부를 다른 부품클래스가 담당하는것.
