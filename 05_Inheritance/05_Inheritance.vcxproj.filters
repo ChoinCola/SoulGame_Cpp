@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="06_destuction_order_of_derived_class.cpp">
+    <ClCompile Include="11_virtual_function_and_polymorphism.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
