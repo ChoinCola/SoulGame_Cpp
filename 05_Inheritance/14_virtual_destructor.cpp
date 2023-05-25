@@ -30,6 +30,5 @@ int main()
 	// 업케스팅 하게되면 자식클래스의 소멸자가 발생하지 않음.
 	delete base;
 
-
 	return 0;
 }
