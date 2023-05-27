@@ -164,7 +164,7 @@ void AssociativeContainer()
 		map / multimap
 		
 		이 또한 마찬가지로,
-		map은 중복을 허용하지 않는다. key = value이기 때문
+		map은 중복을 허용하지 않는다.
 		multimap은 중복을 허용한다. key와 value는 다르기 때문
 
 		map은 여러개의 값의 주소를 가지는 하나의 공간이 있고, 그곳에서 주소값을 타고 들어가는것.
@@ -187,8 +187,8 @@ void AssociativeContainer()
 
 		for (const auto& ele : map)
 			cout << ele.first << ' ' << ele.second << ' ';
-		cout << endl << endl;
 		// ele의 첫번째 요소,				ele의 두번째 요소
+		cout << endl << endl;
 	}
 	{
 		cout << "Multimap" << endl;
