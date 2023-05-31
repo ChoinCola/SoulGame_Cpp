@@ -16,6 +16,7 @@
 #include <set>
 #include <map>
 #include <stack>
+#include <queue>
 using namespace std;
 
 
@@ -243,6 +244,43 @@ void AdapterContainer()
 		cout << stack.top() << endl;
 		stack.pop();
 		cout << stack.top() << endl << endl;
+	}
+	/*
+		Queue
+		- FIFO
+	*/
+	{
+		cout << "Queue" << endl;
+		queue<int> queue;
+
+		queue.push(1);
+		queue.push(2);
+		queue.push(3);
+
+		cout << queue.front() << ' ' << queue.back() << endl;
+		// 앞과 뒤 양쪽으로 접근을 할 수 있다.
+		queue.pop();
+		cout << queue.front() << ' ' << queue.back() << endl << endl;
+	}
+	/*
+		Priority Queue
+		우선순위 큐
+		[ 정렬이 되어있다. ]
+		선형으로 저장되며, 값이 들어가면서 내림차순으로 정렬되며 들어가게 된다.
+	*/
+	{
+		cout << "Priority Queue" << endl;
+
+		priority_queue<int> priorityQue;
+		
+		for (const int n : {1, 8, 5, 6, 3, 4, 0, 9, 7, 2})
+			priorityQue.push(n);
+
+		for (int i = 0; i < 10; i++)
+		{
+			cout << priorityQue.top() << endl;
+			priorityQue.pop();
+		}
 	}
 }
 

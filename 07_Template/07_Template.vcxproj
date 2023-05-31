@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{911c973d-89f8-40a8-a786-ad2b342c87ab}</ProjectGuid>
-    <RootNamespace>STL</RootNamespace>
+    <ProjectGuid>{7f68f225-6b65-42ee-b7dd-ca4cb0421eef}</ProjectGuid>
+    <RootNamespace>My07Template</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>06_STL</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,6 +138,18 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="02_class_template.cpp" />
+    <ClCompile Include="02_myArray.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="02_myArray.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="02_myArray.inl">
+      <FileType>Document</FileType>
+    </ClInclude>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
