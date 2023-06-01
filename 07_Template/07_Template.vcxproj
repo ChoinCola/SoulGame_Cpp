@@ -138,18 +138,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="02_class_template.cpp" />
-    <ClCompile Include="02_myArray.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="02_myArray.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="02_myArray.inl">
-      <FileType>Document</FileType>
-    </ClInclude>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
